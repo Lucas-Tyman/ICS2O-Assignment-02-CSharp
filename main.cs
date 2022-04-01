@@ -22,7 +22,7 @@ class Program
          Console.WriteLine("");
          
          Console.Write("Input the measurement for the length :");
-         lengthSquare=Convert.ToDouble(Console.ReadLine());
+         lengthSquare = Convert.ToDouble(Console.ReadLine());
          
          // process
          perimeter = lengthSquare * 4;
