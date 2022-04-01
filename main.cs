@@ -30,6 +30,6 @@ class Program
          // output
          Console.WriteLine("");
          Console.WriteLine("The perimeter of the square is, " + perimeter.ToString("0.00") + " cm");
-         Console.WriteLine(" InDone.");
+         Console.WriteLine("\nDone.");
      }
 }
