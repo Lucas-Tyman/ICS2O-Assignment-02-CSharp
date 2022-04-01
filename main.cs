@@ -7,8 +7,8 @@ using System;
 
 class Program
 {
-      public static void Main(string[] args)
-      {
+    public static void Main(string[] args)
+    {
          // This function accepts user input
          double lengthSquare;
          double perimeter;
@@ -22,7 +22,7 @@ class Program
          Console.WriteLine("");
          
          Console.Write("Input the measurement for the length :");
-         lengthSquare = Convert.ToDouble(Console.ReadLine());
+        lengthSquare = Convert.ToDouble(Console.ReadLine());
          
          // process
          perimeter = lengthSquare * 4;
@@ -31,5 +31,5 @@ class Program
          Console.WriteLine("");
          Console.WriteLine("The perimeter of the square is, " + perimeter.ToString("0.00") + " cm");
          Console.WriteLine("\nDone.");
-     }
+    }
 }
