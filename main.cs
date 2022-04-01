@@ -12,7 +12,7 @@ class Program
         // This function accepts user input
         double lengthSquare;
         double perimeter;
-         
+        
         // input
         Console.WriteLine("This program finds the perimeter of a sqaure. ");
         Console.WriteLine("");
@@ -20,10 +20,10 @@ class Program
         Console.WriteLine("");
         Console.WriteLine("please enter the measurements (cm)");
         Console.WriteLine("");
-         
+        
         Console.Write("Input the measurement for the length :");
         lengthSquare = Convert.ToDouble(Console.ReadLine());
-         
+        
         // process
         perimeter = lengthSquare * 4;
         
